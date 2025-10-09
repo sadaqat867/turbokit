@@ -1,0 +1,28 @@
+{
+  "name": "smartcode/turbokit",
+  "description": "High-performance Laravel package for massive data & developer productivity",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SmartCode\\TurboKit\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SmartCode\\TurboKit\\TurboKitServiceProvider"
+      ],
+      "aliases": {
+        "TurboKit": "SmartCode\\TurboKit\\Facades\\TurboKit"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0",
+    "spatie/laravel-permission": "^6.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
