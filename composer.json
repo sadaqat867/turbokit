@@ -5,16 +5,16 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SmartCode\\TurboKit\\": "src/"
+      "Smartcode\\TurboKit\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "SmartCode\\TurboKit\\TurboKitServiceProvider"
+        "Smartcode\\TurboKit\\TurboKitServiceProvider"
       ],
       "aliases": {
-        "TurboKit": "SmartCode\\TurboKit\\Facades\\TurboKit"
+        "TurboKit": "Smartcode\\TurboKit\\Facades\\TurboKit"
       }
     }
   },
