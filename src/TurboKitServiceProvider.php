@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartcode\TurboKit;
+namespace Smartcode\turboKit;
 
 use Illuminate\Support\ServiceProvider;
 

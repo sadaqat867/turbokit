@@ -1,10 +1,10 @@
 <?php
 
-namespace Smartcode\Turbokit;   // ← small-c folder, so namespace lowercase 'c'
+namespace Smartcode\turbokit;   // ← small-c folder, so namespace lowercase 'c'
 
-use Smartcode\Turbokit\Core\TurboModel;
-use Smartcode\Turbokit\Core\TurboQuery;
-use Smartcode\Turbokit\Core\CacheLayer;
+use Smartcode\turbokit\Core\TurboModel;
+use Smartcode\turbokit\Core\TurboQuery;
+use Smartcode\turbokit\Core\CacheLayer;
 
 class TurboKit
 {

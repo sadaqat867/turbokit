@@ -1,6 +1,6 @@
 <?php
 
-namespace Smartcode\TurboKit\Core;
+namespace Smartcode\turboKit\Core;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Cache;
